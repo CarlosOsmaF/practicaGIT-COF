@@ -23,7 +23,7 @@ namespace Practica_2._3
             //Si el telegrama es ordinario
             if (tipoTelegrama == 'o')
                 if (numPalabras <= 10)
-                    coste = 25;
+                    coste = 0.25;
                 else
                     coste = 0.5 * numPalabras;
             else
